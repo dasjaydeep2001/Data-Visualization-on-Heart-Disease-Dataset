@@ -31,16 +31,16 @@ In seaborn, a distplot is a function that plots a histogram, kernel density esti
 
 A pie chart is a circular statistical graphic, which is divided into slices to illustrate numerical proportion. In a pie chart, the arc length of each slice is proportional to the quantity it represents. Pie charts are generally used to show the distribution of a categorical variable.
 
-#Heart Disease EDA - ViolinPlot
+# Heart Disease EDA - ViolinPlot
 
 In seaborn, a violinplot is a graphical representation of a continuous distribution, showing the probability density of the data at different values. It is a combination of a box plot and a kernel density plot, with a rotated kernel density plot on each side.
 
-#Heart Disease EDA - Correlation (HeatMap)
+# Heart Disease EDA - Correlation (HeatMap)
 
 A correlation heatmap is a graphical representation of the correlation matrix of a dataset, which shows the correlation coefficients between the different variables in the dataset. The values in the matrix are represented as colors, with darker colors indicating a stronger positive or negative correlation.
 
 The values in the matrix are the Pearson correlation coefficients between the different variables, with 1 indicating a strong positive correlation, -1 indicating a strong negative correlation, and 0 indicating no correlation. The colors in the heatmap represent the strength of the correlation, with darker colors indicating a stronger correlation.
-#Heart Disease EDA - Corrlation (PairPlot)
+# Heart Disease EDA - Corrlation (PairPlot)
 
 A correlation pairplot is a graphical representation of the pairwise relationships between variables in a dataset. It is a matrix of scatter plots, where each scatter plot shows the relationship between two variables. The diagonal of the matrix is a histogram or kernel density plot showing the distribution of one of the variables.
 
@@ -49,7 +49,7 @@ The scatter plots on the upper and lower triangles of the matrix show the relati
 You can customize the appearance of the pairplot by setting various options, such as the color map, marker type, and histogram bin width. You can also plot only a subset of the variables by specifying a list of column names in the vars argument.
 
 Correlation pairplots are useful for visualizing the relationships between variables in a dataset and identifying potential correlations that may be of interest. They can also be used to identify variables that are highly correlated, which may be indicative of multicollinearity in a statistical model.
-#Heart Disease EDA - Correlation - (JointPlot)
+# Heart Disease EDA - Correlation - (JointPlot)
 
 A correlation jointplot is a graphical representation of the joint distribution of two variables, along with their individual distributions. In seaborn, you can create a jointplot using the jointplot function.
 
